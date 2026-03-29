@@ -1,8 +1,13 @@
-# PIDNet: A Real-time Semantic Segmentation Network Inspired from PID Controller
+
+# COMP6011 Report 1: Reproducing the results from this repository
+## PIDNet: A Real-time Semantic Segmentation Network Inspired from PID Controller
 	
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-This is the official repository for our recent work: PIDNet ([PDF](https://arxiv.org/pdf/2206.02066)）
+This reporitory is cloned from this official version for academic purpose - https://github.com/xujiacong/pidnet
+
+
+This is the official article of the author's work: PIDNet ([PDF](https://arxiv.org/pdf/2206.02066)）
 
 **Caution: It appears the download links below are no longer working due to my missing Google Drive account. Please download all the weights via [this link](https://drive.google.com/drive/folders/0BySIOtxxULinfjlGdGFiT3NQVUdLVDBxWnhhTjB4VXNBRkFOa281WHlkektYY2VBcWVZb1k?resourcekey=0-w0JIXUekD-FCW-Rm1Z-HfQ&usp=sharing). Sorry for the inconvenience.**
 
@@ -140,7 +145,7 @@ python tools/custom.py --a 'pidnet-l' --p '../pretrained_models/cityscapes/PIDNe
 
 ## Citation
 
-If you think this implementation is useful for your work, please cite our paper:
+If you think this implementation is useful for your work, please cite the author's paper:
 ```
 @misc{xu2022pidnet,
       title={PIDNet: A Real-time Semantic Segmentation Network Inspired from PID Controller}, 
